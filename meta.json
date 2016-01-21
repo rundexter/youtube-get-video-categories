@@ -52,6 +52,15 @@
             "title":"Items"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://www.googleapis.com/auth/youtube",
+            "https://www.googleapis.com/auth/youtube.force-ssl",
+            "https://www.googleapis.com/auth/youtube.readonly",
+            "https://www.googleapis.com/auth/youtubepartner"
+        ]
+    }],
     "icon": "youtube-play",
     "title": "YouTube Get Video Categories" /* Required.A display name for the module */
 }
